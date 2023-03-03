@@ -13,6 +13,25 @@ Here are general steps of how a virtual DOM funcions:
 
 Performing this exercise will be helpful to front-end developers because it will provide a hands-on opportunity to understand and implement one of the core concepts used by modern web frameworks to optimize web application performance. Building your own Virtual DOM library will help you to gain a deeper understanding of how Virtual DOM works and how to leverage its benefits to improve web application performance. By completing this exercise, you will be better equipped to make informed decisions about which libraries and frameworks to use for your own projects, and to develop more efficient, performant web applications.
 
+
+## Implementation Details:
+
+The DOM is usually represented as a tree in the browser, as you can see in the image down below:
+
+![image](https://user-images.githubusercontent.com/114756286/222674145-d5d6685e-590e-4f0b-97b4-4778217a9460.png)
+
+Each node in the tree represents an HTML element, these elements can have branches that have child elements, Each node apart from containing their children has certain other properties which are known as attributes, these attributes could be things like href, source image (src) etc. The HTML in the browser is then rendered top to bottom.
+
+This tree can be represented as an object in Javascript, here is an example object representation of a react virtual DOM.
+
+<code> <div id="main">
+<div id="header">
+<h1 id="heading">
+Hello World </h1>
+<p_id="paragraph">  Building VDOM </p>
+  </div>
+  </div></code>
+
 ## Exercise Details:
 In this exercise you should implement a Virtual DOM library using JavaScript or TypeScript. The library should have the following functionality:
 
