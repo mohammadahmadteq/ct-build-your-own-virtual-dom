@@ -1,7 +1,7 @@
-##Description:
+## Description:
 In this exercise, you will build your own Virtual DOM library. The Virtual DOM is a concept used by modern web frameworks such as React, Vue, and Angular to optimize web application performance. By using a Virtual DOM, changes in the application state are first reflected in the Virtual DOM, which then updates the actual DOM. This way, the framework only updates the necessary parts of the DOM, reducing the number of expensive DOM manipulations required.
 
-##Problem Statement:
+## Problem Statement:
 Your task is to implement a Virtual DOM library using JavaScript. The library should have the following functionality:
 
 Create virtual nodes with a given tag name and attributes.
