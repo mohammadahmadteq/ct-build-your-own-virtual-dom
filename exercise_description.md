@@ -59,6 +59,8 @@ This tree can be represented as an object in Javascript, here is an example obje
   ]
 }
 ```
+You will also need to program a "diff" algorithm, which runs whenever the state or the elements in the virtual DOM updates. This algorithm will only update components that are modifed in the virtual DOM. This algorithm is responsible for making our virtual DOM highly performant as compared to acutal DOM. You can read more about the diffing algorithm by going to the links in the resources section. 
+
 
 ## Exercise Details:
 In this exercise you should implement a Virtual DOM library using JavaScript or TypeScript. The library should have the following functionality:
@@ -80,4 +82,15 @@ Your Virtual DOM library should be designed to handle changes to the application
 
 ## Considerations
 
-1. You should make sure that your implementation does not use mutliple O(N2) time complexity functions when comparing the difference between virtual DOM and the actual DOM. Your implementation should be actually faster than updating the actual DOM (Ideally, you should compare the two opoerations using console.time function).
+1. You should make sure that your implementation does not use mutliple O(N2) time complexity functions when comparing the difference between virtual DOM and the actual DOM. Your implementation should be actually faster than updating the actual DOM (Ideally, you should compare the two opoerations using console.time function). 
+2. Make sure it easy to distinguish variables and code that performs actions on virtual DOM from the code that functions on the actual DOM.
+
+
+## Resources
+
+<a href = "https://dev.to/maulik/the-best-example-to-understand-virtual-dom-4lfn" > The best example to understand virtual DOM </a>
+<a href = "https://blog.logrocket.com/virtual-dom-react/#:~:text=React%20uses%20the%20virtual%20DOM,to%20write%20more%20predictable%20code." >What is the virtual DOM in React?
+</a>
+<a href = "https://reactjs.org/docs/reconciliation.html" > Reconciliation React DOCS </a>
+<a href = "https://www.geeksforgeeks.org/what-is-diffing-algorithm/"> What is Diffing Algorithm ? </a>
+
