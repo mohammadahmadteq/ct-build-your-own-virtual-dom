@@ -4,7 +4,7 @@
 
 Virtual Document Object Model (DOM) is a concept used by modern web frameworks such as React, Vue, and Angular to optimize web application performance. By using a Virtual DOM, changes in the application state are first reflected in the Virtual DOM, which then updates the actual DOM. This way, the framework only updates the necessary parts of the DOM, reducing the number of expensive DOM manipulations required.
 
-Here are general steps of how a virtual DOM funcions:
+Here are general steps of how a virtual DOM functions:
 
 1. When a user interacts with a web application, the virtual DOM is updated with the new state of the application.
 2. The virtual DOM then compares the updated state with the previous state to determine what has changed.
