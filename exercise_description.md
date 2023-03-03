@@ -22,16 +22,42 @@ The DOM is usually represented as a tree in the browser, as you can see in the i
 
 Each node in the tree represents an HTML element, these elements can have branches that have child elements, Each node apart from containing their children has certain other properties which are known as attributes, these attributes could be things like href, source image (src) etc. The HTML in the browser is then rendered top to bottom.
 
-This tree can be represented as an object in Javascript, here is an example object representation of a react virtual DOM.
+This tree can be represented as an object in Javascript, here is an example object representation of a simple virtual DOM Object.
 
 ```
 <div id="main">
-<div id="header">
-<h1 id="heading">
-Hello World </h1>
-<p_id="paragraph">  Building VDOM </p>
+  <div id="header">
+    <h1 id="heading">
+      Hello World 
+    </h1>
+  </div>
 </div>
-</div>
+```
+
+```
+{
+  "tag" : "div",
+  "attributes" : {
+    "id" : "main"
+  },
+  "children": [
+    {
+      "tag" : "div",
+      "attributes" : {
+        "id" : "header"
+      },
+      "children" : [
+      {
+        "tag" : "h1",
+        "attributes" : {
+          "id" : "heading"
+        },
+        "children" : "Hello World"
+      }
+    ]
+    },
+  ]
+}
 ```
 
 ## Exercise Details:
