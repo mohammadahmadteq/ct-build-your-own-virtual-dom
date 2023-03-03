@@ -40,7 +40,7 @@ This tree can be represented as an object in Javascript, here is an example obje
   "attributes" : {
     "id" : "main"
   },
-  "children": [
+   "children": [
     {
       "tag" : "div",
       "attributes" : {
@@ -54,7 +54,7 @@ This tree can be represented as an object in Javascript, here is an example obje
         },
         "children" : "Hello World"
       }
-    ]
+     ]
     },
   ]
 }
