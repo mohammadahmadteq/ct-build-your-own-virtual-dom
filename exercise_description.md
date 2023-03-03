@@ -92,5 +92,7 @@ Your Virtual DOM library should be designed to handle changes to the application
 2. <a href = "https://blog.logrocket.com/virtual-dom-react/#:~:text=React%20uses%20the%20virtual%20DOM,to%20write%20more%20predictable%20code." > What is the virtual DOM in React? </a>
 3. <a href = "https://reactjs.org/docs/reconciliation.html" > Reconciliation React DOCS </a>
 4. <a href = "https://www.geeksforgeeks.org/what-is-diffing-algorithm/"> What is Diffing Algorithm ? </a>
-
+5. <a href = "https://javascript.plainenglish.io/reacts-diffing-algorithm-1a64cfefa4e0"> React’s Diffing Algorithm </a>
+6. <a href = "https://www.youtube.com/watch?v=i793Qm6kv3U"> Understanding React's UI Rendering Process </a>
+7. <a href = "https://indepth.dev/posts/1501/exploring-how-virtual-dom-is-implemented-in-react"> Exploring how virtual DOM is implemented in React </a>
 
