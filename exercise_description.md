@@ -70,4 +70,14 @@ In this exercise you should implement a Virtual DOM library using JavaScript or 
 5. Update the attributes or text content of a virtual node.
 6. Diff two virtual nodes and return a list of patches to be applied to the actual DOM.
 
-To complete the exercise, you should create a simple web page that uses your Virtual DOM library to render dynamic content. This could be a simple counter that updates on button clicks along with an input box and a button which when clicked updates the header of the page. Your Virtual DOM library should be designed to handle changes to the application state efficiently, updating only the necessary parts of the DOM to improve performance.
+To complete the exercise, you should create a simple web page that uses your Virtual DOM library to render dynamic content. This web page should contain:
+1. A simple counter that updates on button clicks.
+2. An input box and a submit button which changes the text context of header
+3. A dynamic unordered list which you can add or remove elements by clicking the plus or minus buttons.
+
+Your Virtual DOM library should be designed to handle changes to the application state efficiently, updating only the necessary parts of the DOM to improve performance.
+
+
+## Considerations
+
+1. You should make sure that your implementation does not use mutliple O(N2) time complexity functions when comparing the difference between virtual DOM and the actual DOM. Your implementation should be actually faster than updating the actual DOM (Ideally, you should compare the two opoerations using console.time function).
