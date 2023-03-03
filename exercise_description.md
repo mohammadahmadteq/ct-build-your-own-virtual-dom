@@ -11,8 +11,8 @@ Here are general steps of how a virtual DOM funcions:
 
 Performing this exercise will be helpful to front-end developers because it will provide a hands-on opportunity to understand and implement one of the core concepts used by modern web frameworks to optimize web application performance. Building your own Virtual DOM library will help you to gain a deeper understanding of how Virtual DOM works and how to leverage its benefits to improve web application performance. By completing this exercise, you will be better equipped to make informed decisions about which libraries and frameworks to use for your own projects, and to develop more efficient, performant web applications.
 
-## Problem Statement:
-Your task is to implement a Virtual DOM library using JavaScript. The library should have the following functionality:
+## Exercise Details:
+In this exercise you should implement a Virtual DOM library using JavaScript. The library should have the following functionality:
 
 1. Create virtual nodes with a given tag name and attributes.
 2. Create a virtual text node with a given text content.
