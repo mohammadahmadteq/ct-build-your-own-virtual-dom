@@ -85,6 +85,11 @@ Your Virtual DOM library should be designed to handle changes to the application
 1. You should make sure that your implementation does not use mutliple O(N2) time complexity functions when comparing the difference between virtual DOM and the actual DOM. Your implementation should be actually faster than updating the actual DOM (Ideally, you should compare the two opoerations using console.time function). 
 2. Make sure it easy to distinguish variables and code that performs actions on virtual DOM from the code that functions on the actual DOM.
 
+## Further Learning
+
+1. Build your own JSX transpiler for your custom virtual DOM library.
+2. Make a global state management system for your custom virtual DOM library.
+3. Create a function for running code logic whenever a component is mounted (similar to use useEffect or componentdidMount)
 
 ## Resources
 
