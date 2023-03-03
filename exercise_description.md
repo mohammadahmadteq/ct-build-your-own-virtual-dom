@@ -24,13 +24,13 @@ Each node in the tree represents an HTML element, these elements can have branch
 
 This tree can be represented as an object in Javascript, here is an example object representation of a react virtual DOM.
 
-<code> <div id="main">
+<code> ``<div id="main">
 <div id="header">
 <h1 id="heading">
 Hello World </h1>
 <p_id="paragraph">  Building VDOM </p>
   </div>
-  </div> </code>
+  </div>`` </code>
 
 ## Exercise Details:
 In this exercise you should implement a Virtual DOM library using JavaScript or TypeScript. The library should have the following functionality:
